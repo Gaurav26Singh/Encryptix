@@ -1,0 +1,67 @@
+button{
+    width:60px;
+    height: 60px;
+    border-radius: 50px;
+    border:none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor:pointer;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
+
+}
+#calculator{
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 20px;
+    max-width: 360px;
+    box-sizing: border-box;
+
+}
+
+#display{
+    box-sizing: border-box;
+    width: 90%;
+    margin: 20px;
+    padding: 15px;
+    font-size: 3rem;
+    text-align: left;
+    border-radius: 10px;
+    background-color: rgb(214, 214, 214);
+    border: 3px solid black;
+     
+}
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("https://www.designyourway.net/diverse/darkpat/COLOURlovers.com-Grey_Background.jpg");
+    
+}
+#heading{
+    font-size: 45px;
+    font-weight: bolder;
+    color: white;
+}
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+button:active{
+    
+background-color: hsl(0, 0%, 50%);}
+.operator-btn{
+    background-color: hsl(158, 84%, 48%);
+}
+.operator-btn:hover{
+    background-color: hsl(163, 100%, 76%);
+}
